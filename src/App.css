@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  background-color: #222;
+  padding: 25px 100px;
+  font-weight: 600;
+}
+
+main {
+  margin: 50px 100px;
+  width: 50%;
+  float: left;
+}
+
+aside {
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 5%;
+  float: left;
+}
+
+.paragraph {
+  font-weight: 300;
+}
+
+main .affair {
+  margin-bottom: 50px;
+  background-color: #3e8fa0;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.edit {
+  border-radius: 10px;
+  float: right;
+  margin-top: 6px;
+  padding: 5px 15px;
+  background-color: #317180;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: transform 500ms ease;
+}
+
+main .edit:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+aside form input,
+aside form textarea,
+aside form button {
+  width: 90%;
+  padding: 15px 5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border: 0;
+  background-color: #222;
+  color: #fff;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+aside form button {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 500ms ease;
+}
+
+aside form button:hover {
+  transform: scale(1.1);
+}
